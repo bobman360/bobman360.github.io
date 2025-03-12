@@ -63,7 +63,9 @@
 
 .sidebar ul {
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
+  text-align: center;
+  margin-left: -10px;
 }
 
 .sidebar li {
@@ -86,7 +88,7 @@
 }
 
 .sidebar-content {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .sidebar-photo {
