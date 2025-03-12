@@ -102,4 +102,26 @@
   text-align: center;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.gallery-item p {
+  text-align: left;
+  margin-top: 4px;
+  font-size: 10px;
+  color: #888;
+}
+
 /*# sourceMappingURL=styles.css.map */
