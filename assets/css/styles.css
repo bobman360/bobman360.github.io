@@ -114,11 +114,13 @@
 }
 
 .gallery-item img {
+  display: block;
+  margin: auto;
   width: 75%;
 }
 
 .gallery-item p {
-  text-align: left;
+  text-align: center;
   margin-top: 4px;
   font-size: 10px;
   color: #888;
